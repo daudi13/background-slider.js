@@ -70,6 +70,7 @@ body::before {
           transform: translateY(-50%);
   border: 2px solid orange;
   cursor: pointer;
+  padding: 20px;
 }
 
 .arrow:focus {
