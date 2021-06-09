@@ -3,3 +3,18 @@
     align-items: center;
     justify-content: center;
 }
+
+@mixin length1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+@mixin length2 {
+    height: 70vh;
+    width: 70vw;
+}
+
+@mixin length3 {
+    height: 100vh;
+    width: 100%;
+}
