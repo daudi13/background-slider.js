@@ -7,9 +7,7 @@ body {
     @include displayFlex;
     height: 100vh;
     overflow: hidden;
-    background: url('https://images.unsplash.com/photo-1622983472983-f37d9867fbf3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-    background-position: center center;
-    background-size: cover;
+    @include photo-pos;
     transition: 0.4s;
 }
 

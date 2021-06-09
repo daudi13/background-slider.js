@@ -16,7 +16,7 @@
     @include photo-pos;
 }
 
-.slider.active {
+.slide.active {
     opacity: 1;
 }
 
@@ -37,7 +37,7 @@
 
 
 .left-arrow {
-    left: calc(15vw - 5px);
+    left: calc(15vw - 65px);
 }
 
 .right-arrow {

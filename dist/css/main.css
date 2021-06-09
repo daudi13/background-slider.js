@@ -16,7 +16,6 @@ body {
           justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: url("https://images.unsplash.com/photo-1622983472983-f37d9867fbf3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-position: center center;
   background-size: cover;
   -webkit-transition: 0.4s;
@@ -57,7 +56,7 @@ body::before {
   background-size: cover;
 }
 
-.slider.active {
+.slide.active {
   opacity: 1;
 }
 
@@ -78,7 +77,7 @@ body::before {
 }
 
 .left-arrow {
-  left: calc(15vw - 5px);
+  left: calc(15vw - 65px);
 }
 
 .right-arrow {
