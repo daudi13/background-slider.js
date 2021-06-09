@@ -53,6 +53,8 @@ body::before {
   z-index: 1;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
+  background-position: center center;
+  background-size: cover;
 }
 
 .slider.active {

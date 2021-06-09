@@ -18,3 +18,8 @@
     height: 100vh;
     width: 100%;
 }
+
+@mixin photo-pos {
+    background-position: center center;
+    background-size: cover;
+}
